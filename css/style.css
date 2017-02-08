@@ -1,0 +1,16 @@
+.first{
+  background-color: #a8baca;
+}
+
+.second{
+  background-color: #a2c5b6;
+}
+
+mark{
+  background-color: #f08080;
+  color: #bedb39;
+}
+
+blockquote{
+  border-left-width: 0;
+}
