@@ -1,6 +1,12 @@
 //breakpoints
-$mobile: "(max-width: 767px)";
-$tablet: "(min-width: 768px)";
-$desktop: "(min-width: 992px)";
+$mobile: "(max-width: 575px)";
+$tablet: "(min-width: 576px)";
+$desktop: "(min-width: 765px)";
 
 //min mobile 425px;
+
+//colors
+$timeLineColor: #f2f2f2;
+$importantColor: #cc0000;
+$seeColor: #00C8B9;
+$landHoverColor: #EF5159;

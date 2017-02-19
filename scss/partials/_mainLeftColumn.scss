@@ -1,3 +1,64 @@
+.red_btn_topic{
+  height: 3rem;
+  width: 8rem;
+  background-color: $importantColor;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  position: absolute;
+  z-index: 1;
+}
+
+.mainArticle_pic{
+  position: relative;
+}
+
+.mainArticle_genre{
+  color: $importantColor;
+  float: left;
+  clear: both;
+  display: inline-block;
+  padding-top: 15px;
+}
+.mainArticle_paging{
+  float: right;
+  display: inline-block;
+  .pageing{
+    font-weight: 800;
+    font-size: 2rem;
+  }
+  b{
+    padding-bottom: 5px;
+  }
+}
+.dayTopic1{
+  h4{
+    color: $importantColor;
+  }
+  span{
+    font-weight: bold;
+  }
+}
+.dayTopic2{
+  span{
+    font-weight: bold;
+  }
+}
+
 @media#{$mobile}{
-  
+  body{
+    background-color: $timeLineColor;
+  }
+  .dayTopic1{
+    display: inline-block;
+    float: left;
+    clear: both;
+  }
+  .dayTopic2{
+    display: inline-block;
+    float: right;
+  }
+
+
+
 }
