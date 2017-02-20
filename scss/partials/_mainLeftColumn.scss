@@ -49,15 +49,17 @@
   body{
     background-color: $timeLineColor;
   }
-  .dayTopic1{
-    display: inline-block;
-    float: left;
-    clear: both;
+  .dayTopic{
+    display: flex;
+    justify-content: space-between;
+    .dayTopic1, .dayTopic2{
+      width: 50%;
+    }
+    .dayTopic2{
+      padding-top: 35px;
+    }
   }
-  .dayTopic2{
-    display: inline-block;
-    float: right;
-  }
+
 
 
 

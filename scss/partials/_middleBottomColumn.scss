@@ -1,0 +1,45 @@
+.commentsArticle{
+  justify-content: space-around;
+  .comment{
+    position: relative;
+    display: inline-block;
+    .parenteses{
+      position: absolute;
+      left: 35px;
+    }
+    p{
+      text-align: center;
+      line-height: 1rem;
+    }
+    .foto{
+
+    }
+  }
+}
+
+
+@media#{$mobile}{
+  .commentsArticle{
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    .comment{
+      width: 180px;
+      position: relative;
+      margin-top: 80px;
+      .parenteses{
+        position: absolute;
+        left: 35px;
+        top: -50px;
+      }
+      .foto{
+        position: absolute;
+        left: 60px;
+        top: -55px;
+      }
+    }
+  }
+
+
+}
