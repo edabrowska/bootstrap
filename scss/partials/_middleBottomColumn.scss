@@ -11,9 +11,7 @@
       text-align: center;
       line-height: 1rem;
     }
-    .foto{
 
-    }
   }
 }
 
@@ -41,5 +39,26 @@
     }
   }
 
+}
 
+@media#{$tablet}{
+  .commentsArticle{
+    flex-direction: row;
+    justify-content: space-around;
+    height: 230px;
+    .comment{
+      margin-top: 100px;
+      position: relative;
+      .parenteses{
+        position: absolute;
+        left: 55px;
+        top: -50px;
+      }
+      .foto{
+        position: absolute;
+        left: 80px;
+        top: -55px;
+      }
+    }
+  }
 }

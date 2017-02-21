@@ -31,17 +31,16 @@
     padding-bottom: 5px;
   }
 }
-.dayTopic1{
-  h4{
-    color: $importantColor;
-  }
+.dayTopic{
   span{
     font-weight: bold;
   }
-}
-.dayTopic2{
-  span{
-    font-weight: bold;
+  .dayTopic1{
+    .topic{
+      color: $importantColor;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
   }
 }
 
@@ -60,7 +59,20 @@
     }
   }
 
+}
 
-
+@media#{$tablet}{
+  .red_btn_topic{
+    height: 2rem;
+    width: 6.5rem;
+    padding-top: 5px;
+    font-size: 0.9rem;
+  }
+  h1{
+    margin-bottom: 15px;
+  }
+  .dayTopic2{
+    padding-top: 35px;
+  }
 
 }

@@ -8,7 +8,19 @@
 //   font-weight: 400;
 //   box-sizing: border-box;
 // }
-//
-p{
-  color: black;
+
+body{
+  @media#{$mobile}{
+    margin: 25px;
+  }
+  @media#{$tablet}{
+    margin: 35px 55px;
+  }
+  @media#{$desktop}{
+    margin: 70px 45px;
+  }
+  p{
+    color: black;
+    line-height: 1rem;
+  }
 }
