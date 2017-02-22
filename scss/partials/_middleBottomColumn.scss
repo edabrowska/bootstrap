@@ -3,15 +3,18 @@
   .comment{
     position: relative;
     display: inline-block;
-    .parenteses{
+    .parenteses, .foto{
       position: absolute;
-      left: 35px;
+      transform: translateX(50%, 50%);
     }
     p{
       text-align: center;
       line-height: 1rem;
     }
-
+    .commentDescr{
+      color: gray;
+      font-size: 0.9rem;
+    }
   }
 }
 
@@ -28,12 +31,12 @@
       margin-top: 80px;
       .parenteses{
         position: absolute;
-        left: 35px;
+        left: 20%;
         top: -50px;
       }
       .foto{
         position: absolute;
-        left: 60px;
+        left: 35%;
         top: -55px;
       }
     }
@@ -51,13 +54,38 @@
       position: relative;
       .parenteses{
         position: absolute;
-        left: 55px;
+        left: 15%;
         top: -50px;
       }
       .foto{
         position: absolute;
-        left: 80px;
+        left: 30%;
         top: -55px;
+      }
+      a{
+        display: none;
+      }
+    }
+  }
+}
+
+@media#{$desktop}{
+  .commentsArticle{
+    flex-direction: column;
+    height: auto;
+    border-left: 4px solid $timeLineColor;
+    margin-left: 20px;
+    .comment{
+      margin-top: 80px;
+      a{
+        text-decoration: underline;
+        margin-left: 20%;
+      }
+      .parenteses{
+        left: 20%;
+      }
+      .foto{
+        left: 35%;
       }
     }
   }

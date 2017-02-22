@@ -57,12 +57,36 @@
 }
 
 
-@media#{$mobile}{
-
-}
-
 @media#{$tablet}{
   .timePar{
     margin-right: 10px;
   }
+}
+
+@media#{$desktop}{
+  .infoArticle{
+    margin-right: 80px;
+
+    .timeDiv{
+      background-color: $timeLineColor;
+      width: 55px;
+      .timePar{
+        padding: 25px 0 0 0;
+        text-align: right;
+      }
+      .timeDot{
+        left: 51px;
+       }
+    }
+    .infoDescr{
+      width: 60%;
+      font-size: 0.9rem;
+    }
+    .infoDescrP, .imgPremier{
+      width: 79%;
+    }
+
+  }
+
+
 }

@@ -76,3 +76,29 @@
   }
 
 }
+
+@media#{$desktop}{
+  .mainArticle{
+    margin-top: 30px;
+  }
+  .red_btn_topic{
+    height: 1.7rem;
+    width: 5.5rem;
+    padding-top: 5px;
+    font-size: 0.7rem;
+  }
+  h1{
+    margin-top: 10px;
+  }
+  .dayTopic{
+    border-left: 4px solid $timeLineColor;
+    margin-top: 20px;
+    .dayTopic2{
+      padding-top: 5px;
+    }
+    p{
+      font-size: 0.85rem;
+    }
+  }
+
+}
